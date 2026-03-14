@@ -3,7 +3,7 @@ sudo apt install libssl-dev libffi-dev zlib1g-dev build-essential
 sudo wget https://www.python.org/ftp/python/3.7.16/Python-3.7.16.tgz
 sudo tar -xzf Python-3.7.16.tgz
 cd Python-3.7.16
-#bin/bash
+
 OPENSSL_DIR="/usr/local/openssl-3.0.18"
 CUSTOM_PYTHON_DIR="/usr/local/python-3.7.16-custom"
 export CPPFLAGS="-I${OPENSSL_DIR}/include"
